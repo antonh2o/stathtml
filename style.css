@@ -1,0 +1,45 @@
+    .design {
+    display: inline-block; /* Строчно-блочный элемент */
+    padding: 5px 20px; /* Добавляем поля */
+    text-decoration: none; /* Убираем подчёркивание у ссылки */
+    cursor: pointer; /* Курсор в виде руки */
+    background: #deefff; /* Фон для браузеров, не поддерживающих градиент */
+    /* Градиент */
+    background: -moz-linear-gradient(top, #deefff 0%, #98bede 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#deefff), color-stop(100%,#98bede));
+    background: -webkit-linear-gradient(top, #deefff 0%,#98bede 100%);
+    background: -o-linear-gradient(top, #deefff 0%,#98bede 100%);
+    background: -ms-linear-gradient(top, #deefff 0%,#98bede 100%);
+    background: linear-gradient(top, #deefff 0%,#98bede 100%);
+    border-radius: 10px; /* Скругляем уголки */
+    border: 1px solid #008; /* Добавляем синюю рамку */
+    font: 12px/1 Arial, sans-serif; /* Рубленый шрифт */
+    color: #2c539e; /* Цвет текста и ссылки */
+   }
+table {
+  //font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  border-collapse: collapse;
+  color: black;
+}
+caption {
+  padding: 5px;
+  color: white;
+  background: #2c539e;
+  font-size: 12px;
+  text-align: left;
+  font-weight: bold;
+}
+th {
+  border-bottom: 3px solid #B9B29F;
+  padding: 5px;
+  text-align: left;
+}
+td {
+  padding: 5px;
+}
+tr:nth-child(odd) {
+  background: white;
+}
+tr:nth-child(even) {
+  background: #E8E6D1;
+}
