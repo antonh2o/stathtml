@@ -25,12 +25,6 @@ $Start=$yestoday; $End=$today;
 
 $Login =''; $ExtIp='';
 
-echo '<p>
-<a href="http://netmon.ocm.ru:8182" class="design">Онлайн Статистика </a> 
-<a href="http://netmon.ocm.ru:8181" class="design">Cisco Syslog </a> 
-<a href="https://10.13.3.110:8001" class="design">ESET-ESA Administrator</a> 
-</p>';
-
 echo '<form id="inputform" method="GET" >
  <table border="0">
   <tr> 
